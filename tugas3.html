@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="table.html">
+        <fieldset>
+            <label for="Nama">Nama Pemesan :</label>
+            <input type="text" name="Nama" id="Nama" required autofocus>
+            <br><br>
+            <label for="Alamat">Alamat :</label>
+            <textarea name="Alamat" id="Alamat"></textarea>
+            <br><br>
+            <label for="Nomor telepon">Nomor telepon :</label>
+            <input type="number" name="Nomor telepon" id="Nomor telepon" placeholder="Silahkan Masukkan Nomor telepon Anda">
+            <br><br>
+            <label for="jk">Jenis kendaraan</label>
+            <input type="radio" name="jk" id="Mobil" value="Mobil"> <label for="Mobil">Mobil</label>
+            <input type="radio" name="jk" id="Motor" value="Motor"> <label for="Motor">Motor</label>
+            <br><br>
+            <label for="Tanggal">Tanggal Sewa:</label>
+            <input type="date" name="Tanggal" id="Tanggal" placeholder="Tanggal">
+            <br><br>
+            <label for="Balikin">Tanggal Pengembalian:</label>
+            <input type="date" name="Balikin" id="Balikin" placeholder="Balikin">
+            <br><br>
+            <label for="Tujuan">Tujuan :</label>
+            <textarea name="Tujuan" id="Tujuan"></textarea>
+            <br><br>
+            <label for="model">Program Studi</label>
+            <select name="model" id="model">
+                <option value="1">Yamaha</option>
+                <option value="2">honda</option>
+                <option value="3">Kuda</option>
+            </select>
+            <br><br>
+            <label for="Nomor plat">Nomor plat :</label>
+            <input type="number" name="Nomor plat" id="Nomor plat" placeholder="Silahkan Masukkan Nomor plat Anda">
+            <br><br>
+            <label for="asuransi">Asuransi Tambahan</label>
+            <input type="radio" name="asuransi" id="ya" value="ya"> <label for="ya">ya</label>
+            <input type="radio" name="asuransi" id="tidak" value="tidak"> <label for="tidak">tidak</label>
+            <br><br>
+            <label for="Alamat">catatan :</label>
+            <textarea name="catatan" id="catatan" cols="20"></textarea>
+            <br><br>
+            <input type="submit" value="simpan">
+        </fieldset>
+    </form>
+</body>
+</html>
